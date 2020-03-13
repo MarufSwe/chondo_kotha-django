@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../favicon.ico">
+    <link rel="canonical" href="https://getbootstrap.com/docs/3.3/examples/starter-template/">
+
+    <title>Starter Template for Bootstrap</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="https://getbootstrap.com/docs/3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <link href="https://getbootstrap.com/docs/3.3/assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="https://getbootstrap.com/docs/3.3/examples/starter-template/starter-template.css" rel="stylesheet">
+
+    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+    <script src="https://getbootstrap.com/docs/3.3/assets/js/ie-emulation-modes-warning.js"></script>
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<div class="container">
+
+    <div class="starter-template">
+        <h1>ছন্দ কথা </h1>
+    </div>
+
+    {#Dropdown#}
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        .dropbtn {
+            background-color: #19afa8;
+            color: white;
+            padding: 16px;
+            font-size: 16px;
+            border: none;
+        }
+
+        .dropdown {
+            position: relative;
+            display: inline-block;
+            padding-right: 44px;
+        }
+
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #f1f1f1;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+            z-index: 1;
+        }
+
+        .dropdown-content a {
+            color: black;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+
+        }
+
+        .dropdown-content a:hover {
+            background-color: #ddd;
+        }
+
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+
+        .dropdown:hover .dropbtn {
+            background-color: #8e300f;
+        }
+
+    </style>
+    <br>
+    </head>
+    <body>
+
+    <div class="dropdown">
+        <button class="dropbtn">বিভাগ</button>
+        <div class="dropdown-content">
+            <a href="#">চট্টগ্রাম</a>
+            <a href="#">রাজশাহী</a>
+            <a href="#">খুলনা</a>
+            <a href="#">বরিশাল</a>
+            <a href="#">সিলেট</a>
+            <a href="#">ঢাকা</a>
+            <a href="#">রংপুর</a>
+            <a href="#">ময়মনসিংহ</a>
+        </div>
+    </div>
+
+    <div class="dropdown">
+        <button class="dropbtn">জেলা</button>
+        <div class="dropdown-content">
+            <a href="#">Link 1</a>
+            <a href="#">Link 2</a>
+            <a href="#">Link 3</a>
+        </div>
+    </div>
+
+
+    <div class="dropdown">
+        <button class="dropbtn">ক্যাটাগরি</button>
+        <div class="dropdown-content">
+            <a href="#">Link 1</a>
+            <a href="#">Link 2</a>
+            <a href="#">Link 3</a>
+        </div>
+    </div>
+    </body>
+
+    {#    Dropdown End#}
+    <br>
+    <br>
+    <br>
+
+    <div style="text-align:center">
+        <table align="center" border="1" width="1200" style="text-align:center">
+            <tr>
+                <th style="text-align:center" height="50">Name</th>
+                <th style="text-align:center">Price</th>
+                <th style="text-align:center">Status</th>
+            </tr>
+            <tr v-for="product in products" :key="product.id" height="50">
+                <td>Row</td>
+                <td>Row1</td>
+                <td>Row2</td>
+            </tr>
+        </table>
+    </div>
+
+
+</div><!-- /.container -->
+
+
+</body>
+</html>
