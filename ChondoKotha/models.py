@@ -43,3 +43,12 @@ class ChondoKotha(models.Model):
 
     def __str__(self):
         return self.title
+
+    def district_name(self):
+        return self.district.name
+
+    def category_name(self):
+        return self.category.name
+
+    def division_name(self):
+        return self.district.division.name

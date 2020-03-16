@@ -1941,6 +1941,13 @@
       <change afterPath="F:/Udemy - Build Web Apps with Vue JS 2 &amp; Firebase/3. The Vue CLI/10. Filters.srt" afterDir="false" />
       <change afterPath="F:/Udemy - Build Web Apps with Vue JS 2 &amp; Firebase/3. The Vue CLI/10. Filters.vtt" afterDir="false" />
       <change afterPath="F:/Udemy - Build Web Apps with Vue JS 2 &amp; Firebase/3. The Vue CLI/11. Computed Properties (custom search box).mp4" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ChondoKotha/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/ChondoKotha/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ChondoKotha/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/ChondoKotha/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ChondoKotha/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/ChondoKotha/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ChondoKotha/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/ChondoKotha/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -1959,23 +1966,7 @@
     <option name="HIDDEN_KINDS">
       <set />
     </option>
-    <expand>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="db.sqlite3" type="feb32156:DbDataSourceImpl" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="db.sqlite3" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="db.sqlite3" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="main: schema" type="981a47c2:SqliteImplModel$Schema" />
-      </path>
-    </expand>
+    <expand />
     <select />
   </component>
   <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
@@ -1984,10 +1975,22 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ChondoKotha/admin.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="154">
+              <caret line="7" selection-start-line="7" selection-end-line="7" />
+              <folding>
+                <element signature="e#0#32#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ChondoKotha/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="110">
-              <caret line="5" column="31" selection-start-line="5" selection-start-column="31" selection-end-line="5" selection-end-column="31" />
+            <state relative-caret-position="176">
+              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
               <folding>
                 <element signature="e#0#37#0" expanded="true" />
               </folding>
@@ -1996,19 +1999,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ChondoKotha/models.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="368">
-              <caret line="26" column="12" selection-start-line="26" selection-start-column="4" selection-end-line="26" selection-end-column="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ChondoKotha/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="484">
-              <caret line="22" column="22" lean-forward="true" selection-start-line="22" selection-start-column="22" selection-end-line="22" selection-end-column="22" />
+            <state relative-caret-position="1012">
+              <caret line="46" column="42" lean-forward="true" selection-start-line="46" selection-start-column="42" selection-end-line="46" selection-end-column="42" />
               <folding>
                 <element signature="e#0#36#0" expanded="true" />
               </folding>
@@ -2017,13 +2011,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/templates/index.html">
+        <entry file="file://$PROJECT_DIR$/ChondoKotha/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="308">
-              <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
-              <folding>
-                <element signature="n#style#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
+            <state relative-caret-position="519">
+              <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
             </state>
           </provider>
         </entry>
@@ -2040,29 +2031,31 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>Project name</find>
+      <find>data</find>
+      <find>division</find>
+      <find>&lt;</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="F:/" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/ChondoKotha/admin.py" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/15b026bb-987b-4acb-b9d3-c632e2ef3cf9/console.sql" />
-        <option value="$PROJECT_DIR$/ChondoKotha/models.py" />
         <option value="$PROJECT_DIR$/ChondoKotha/templates/index.html" />
         <option value="$PROJECT_DIR$/CrashCourse/urls.py" />
-        <option value="$PROJECT_DIR$/ChondoKotha/urls.py" />
-        <option value="$PROJECT_DIR$/ChondoKotha/views.py" />
         <option value="$PROJECT_DIR$/templates/index.html" />
+        <option value="$PROJECT_DIR$/ChondoKotha/urls.py" />
+        <option value="$PROJECT_DIR$/ChondoKotha/models.py" />
+        <option value="$PROJECT_DIR$/ChondoKotha/admin.py" />
+        <option value="$PROJECT_DIR$/ChondoKotha/views.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="976" />
+    <option name="x" value="911" />
+    <option name="width" value="1017" />
     <option name="height" value="1056" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -2071,6 +2064,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -2078,26 +2072,10 @@
               <item name="CrashCourse" type="b2602c69:ProjectViewProjectNode" />
               <item name="CrashCourse" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="CrashCourse" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CrashCourse" type="462c0819:PsiDirectoryNode" />
-              <item name="ChondoKotha" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CrashCourse" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CrashCourse" type="462c0819:PsiDirectoryNode" />
-              <item name="CrashCourse" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CrashCourse" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CrashCourse" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -2105,7 +2083,13 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="database.console.LAST_STATE" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/db.sqlite3" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Vue/VueJS/ninja-smoothies" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -2163,24 +2147,28 @@
       <option name="presentableId" value="Default" />
       <updated>1584075717002</updated>
       <workItem from="1584075719164" duration="7281000" />
-      <workItem from="1584083156116" duration="11665000" />
+      <workItem from="1584083156116" duration="12275000" />
+      <workItem from="1584328612130" duration="6180000" />
+      <workItem from="1584338117095" duration="6832000" />
+      <workItem from="1584348316509" duration="3748000" />
+      <workItem from="1584354128238" duration="2075000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18946000" />
+    <option name="totallyTimeSpent" value="38391000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13965885" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1444563" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.38777778" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.33333334" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.5566667" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -2189,14 +2177,14 @@
       <window_info anchor="bottom" id="manage.py@CrashCourse" order="9" />
       <window_info anchor="bottom" id="Version Control" order="10" />
       <window_info anchor="bottom" id="Database Changes" order="11" />
-      <window_info anchor="bottom" id="Terminal" order="12" />
-      <window_info anchor="bottom" id="Event Log" order="13" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="12" sideWeight="0.49946696" weight="0.42" />
+      <window_info anchor="bottom" id="Event Log" order="13" sideWeight="0.50053304" side_tool="true" />
       <window_info anchor="bottom" id="Python Console" order="14" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="SciView" order="3" weight="0.32995737" />
-      <window_info active="true" anchor="right" id="Database" order="4" visible="true" weight="0.15991472" />
+      <window_info anchor="right" id="Database" order="4" weight="0.15991472" />
     </layout>
     <layout-to-restore>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1401919" />
@@ -2231,40 +2219,12 @@
     <entry file="file://$PROJECT_DIR$/CrashCourse/settings.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="das://15b026bb-987b-4acb-b9d3-c632e2ef3cf9/schema/main/table/ChondoKotha_division">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state projectRestartId="ac313c1b-8310-4d51-a652-f0cb9c37690c">
-          <filtering>
-            <filter text="" />
-          </filtering>
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://15b026bb-987b-4acb-b9d3-c632e2ef3cf9/schema/main/table/ChondoKotha_chondokotha">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state projectRestartId="ac313c1b-8310-4d51-a652-f0cb9c37690c">
-          <filtering>
-            <filter text="" />
-          </filtering>
-        </state>
-      </provider>
-    </entry>
     <entry file="das://15b026bb-987b-4acb-b9d3-c632e2ef3cf9/schema/main/table/ChondoKotha_category">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state projectRestartId="ac313c1b-8310-4d51-a652-f0cb9c37690c">
           <filtering>
             <filter text="" />
           </filtering>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ChondoKotha/admin.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="12" column="29" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
-          <folding>
-            <element signature="e#0#32#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2285,54 +2245,162 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ChondoKotha/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="5" column="31" selection-start-line="5" selection-start-column="31" selection-end-line="5" selection-end-column="31" />
-          <folding>
-            <element signature="e#0#37#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ChondoKotha/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="26" column="12" selection-start-line="26" selection-start-column="4" selection-end-line="26" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ChondoKotha/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="484">
-          <caret line="22" column="22" lean-forward="true" selection-start-line="22" selection-start-column="22" selection-end-line="22" selection-end-column="22" />
-          <folding>
-            <element signature="e#0#36#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/db.sqlite3">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-660" />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/django/core/handlers/base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="112" selection-start-line="112" selection-end-line="112" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/django/utils/deconstruct.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/django/db/models/query.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="236">
+          <caret line="194" selection-start-line="194" selection-end-line="194" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/django/core/handlers/exception.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="163">
+          <caret line="33" selection-start-line="33" selection-end-line="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="43" column="36" selection-start-line="43" selection-start-column="36" selection-end-line="43" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharm2019.1/system/python_stubs/1974845049/builtins.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="2941" column="8" selection-start-line="2941" selection-start-column="8" selection-end-line="2941" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/requirement.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
     <entry file="das://15b026bb-987b-4acb-b9d3-c632e2ef3cf9/schema/main/table/ChondoKotha_district">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state projectRestartId="b3c452aa-1c33-4e5a-81ad-5c853aa2645a">
+        <state projectRestartId="25b07666-b85c-48f1-a29d-bd544897bb44">
           <filtering>
             <filter text="" />
           </filtering>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/index.html">
+    <entry file="das://15b026bb-987b-4acb-b9d3-c632e2ef3cf9/schema/main/table/ChondoKotha_division">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state projectRestartId="25b07666-b85c-48f1-a29d-bd544897bb44">
+          <filtering>
+            <filter text="" />
+          </filtering>
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://15b026bb-987b-4acb-b9d3-c632e2ef3cf9/schema/main/table/ChondoKotha_chondokotha">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state projectRestartId="25b07666-b85c-48f1-a29d-bd544897bb44">
+          <filtering>
+            <filter text="" />
+          </filtering>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://DATABASE/15b026bb-987b-4acb-b9d3-c632e2ef3cf9">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>DATABASE</ID>
+          <OriginalElement>15b026bb-987b-4acb-b9d3-c632e2ef3cf9</OriginalElement>
+          <nodes>
+            <node x="" y="">15b026bb-987b-4acb-b9d3-c632e2ef3cf9.TABLE:main.auth_permission</node>
+            <node x="" y="">15b026bb-987b-4acb-b9d3-c632e2ef3cf9.TABLE:main.ChondoKotha_category</node>
+            <node x="" y="">15b026bb-987b-4acb-b9d3-c632e2ef3cf9.TABLE:main.ChondoKotha_division</node>
+            <node x="" y="">15b026bb-987b-4acb-b9d3-c632e2ef3cf9.TABLE:main.sqlite_sequence</node>
+            <node x="" y="">15b026bb-987b-4acb-b9d3-c632e2ef3cf9.TABLE:main.sqlite_master</node>
+            <node x="" y="">15b026bb-987b-4acb-b9d3-c632e2ef3cf9.TABLE:main.django_admin_log</node>
+            <node x="" y="">15b026bb-987b-4acb-b9d3-c632e2ef3cf9.TABLE:main.django_session</node>
+            <node x="" y="">15b026bb-987b-4acb-b9d3-c632e2ef3cf9.TABLE:main.auth_user_user_permissions</node>
+            <node x="" y="">15b026bb-987b-4acb-b9d3-c632e2ef3cf9.TABLE:main.auth_group</node>
+            <node x="" y="">15b026bb-987b-4acb-b9d3-c632e2ef3cf9.TABLE:main.auth_user_groups</node>
+            <node x="" y="">15b026bb-987b-4acb-b9d3-c632e2ef3cf9.TABLE:main.django_content_type</node>
+            <node x="" y="">15b026bb-987b-4acb-b9d3-c632e2ef3cf9.TABLE:main.ChondoKotha_chondokotha</node>
+            <node x="" y="">15b026bb-987b-4acb-b9d3-c632e2ef3cf9.TABLE:main.ChondoKotha_district</node>
+            <node x="" y="">15b026bb-987b-4acb-b9d3-c632e2ef3cf9.TABLE:main.auth_group_permissions</node>
+            <node x="" y="">15b026bb-987b-4acb-b9d3-c632e2ef3cf9.TABLE:main.auth_user</node>
+            <node x="" y="">15b026bb-987b-4acb-b9d3-c632e2ef3cf9.TABLE:main.django_migrations</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.1678151918559123" x="313.604138135851" y="1087.2026465441375" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Key columns</Category>
+            <Category>Columns</Category>
+          </Categories>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ChondoKotha/admin.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
+        <state relative-caret-position="154">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
           <folding>
-            <element signature="n#style#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#0#32#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ChondoKotha/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+          <folding>
+            <element signature="e#0#37#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/django/db/models/manager.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="164" selection-start-line="164" selection-end-line="164" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ChondoKotha/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1012">
+          <caret line="46" column="42" lean-forward="true" selection-start-line="46" selection-start-column="42" selection-end-line="46" selection-end-column="42" />
+          <folding>
+            <element signature="e#0#36#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ChondoKotha/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="519">
+          <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
         </state>
       </provider>
     </entry>

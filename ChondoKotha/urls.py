@@ -4,4 +4,5 @@ urlpatterns = [
     path('',views.index),
     path('data/',views.data),
     path('district/',views.district),
+    path('kotha/',views.chondoKotha),
 ]
