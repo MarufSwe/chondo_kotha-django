@@ -9,6 +9,14 @@ def index(request):
     return render(request, "index.html")
 
 
+# Lazy Eager loading
+def lazy_loading(request):
+    kothas = ChondoKotha.objects.all()   #chondoKotha query ORM
+    context = {'kothas': kothas}
+    template = "lazy_eager.html"
+    return render(request, template, context)
+
+
 # api-1 (data) // Division
 def data(request):
     context = {
