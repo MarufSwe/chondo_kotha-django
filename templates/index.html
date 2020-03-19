@@ -1,5 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns:v-bind="http://www.w3.org/1999/xhtml">
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -25,125 +24,146 @@
     <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
     <script src="https://getbootstrap.com/docs/3.3/assets/js/ie-emulation-modes-warning.js"></script>
 
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
+    {#    Axios CDN#}
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.19.2/axios.js"></script>
+
+
 </head>
-<div class="container">
+
+
+<body>
+
+<div class="container" id="app">
 
     <div class="starter-template">
-        <h1>ছন্দ কথা </h1>
+        <h1>_____: ছন্দ কথা :_____ </h1>
     </div>
 
-    {#Dropdown#}
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <style>
-        .dropbtn {
-            background-color: #19afa8;
-            color: white;
-            padding: 16px;
-            font-size: 16px;
-            border: none;
-        }
 
-        .dropdown {
-            position: relative;
-            display: inline-block;
-            padding-right: 44px;
-        }
+    <!-- division -->
+    <div class="row">
+        <div class="col-lg-12">
+            <div class="col-lg-3">
+                <select name="division" id="" class="form-control" @change="getDistricts()"
+                        v-model="form_data.division">
+                    <option value="">বিভাগ</option>
+                    <option v-for="division in divisions" :key="division.id" v-bind:value="division.id">
+                        [[division.bn_name]]
+                    </option>
+                </select>
+            </div>
 
-        .dropdown-content {
-            display: none;
-            position: absolute;
-            background-color: #f1f1f1;
-            min-width: 160px;
-            box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-            z-index: 1;
-        }
 
-        .dropdown-content a {
-            color: black;
-            padding: 12px 16px;
-            text-decoration: none;
-            display: block;
+            <!-- district -->
+            <div class="col-lg-3">
+                <div class="form-group">
+                    <select name="district" id="" v-model="form_data.district" class="form-control">
+                        <option value="" selected="selected">জেলা</option>
+                        <option v-for="district in districts" :key="district.id" v-bind:value="district.id">
+                            [[district.bn_name]]
+                        </option>
+                    </select>
+                </div>
+            </div>
 
-        }
 
-        .dropdown-content a:hover {
-            background-color: #ddd;
-        }
+            <!-- Category -->
+            <div class="col-lg-3">
+                <div class="form-group">
+                    <select name="district" id="" v-model="form_data.category" class="form-control">
+                        <option value="" selected="selected">শ্রেণী বিভাগ</option>
+                        <option v-for="categorie in categories" :key="categorie.id" v-bind:value="categorie.id">
+                            [[categorie.bn_name]]
+                        </option>
+                    </select>
+                </div>
+            </div>
 
-        .dropdown:hover .dropdown-content {
-            display: block;
-        }
 
-        .dropdown:hover .dropbtn {
-            background-color: #8e300f;
-        }
+            <div class="col-lg-3">
+                <div class="form-group">
+                    <button class="btn btn-primary" @click.prevent="getChondoKotha()">Search</button>
+                </div>
+            </div>
 
-    </style>
-    <br>
-    </head>
-    <body>
 
-    <div class="dropdown">
-        <button class="dropbtn">বিভাগ</button>
-        <div class="dropdown-content">
-            <a href="#">চট্টগ্রাম</a>
-            <a href="#">রাজশাহী</a>
-            <a href="#">খুলনা</a>
-            <a href="#">বরিশাল</a>
-            <a href="#">সিলেট</a>
-            <a href="#">ঢাকা</a>
-            <a href="#">রংপুর</a>
-            <a href="#">ময়মনসিংহ</a>
+            <div class="row">
+                <div class="col-md-10">
+                    <table class="table table-bordered">
+                        <tr>
+                            <th>Title</th>
+                            <th>Districts</th>
+                            <th>Category</th>
+                            <th>Division</th>
+                        </tr>
+
+                        <tr v-for="kotha in chondoKotha" :key="kotha.id">
+                            <td>[[kotha.title]]</td>
+                            <td>[[kotha.district__name]]</td>
+                            <td>[[kotha.category__name]]</td>
+                            <td>[[kotha.district__division__name]]</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
         </div>
     </div>
 
-    <div class="dropdown">
-        <button class="dropbtn">জেলা</button>
-        <div class="dropdown-content">
-            <a href="#">Link 1</a>
-            <a href="#">Link 2</a>
-            <a href="#">Link 3</a>
-        </div>
-    </div>
+</div>
 
 
-    <div class="dropdown">
-        <button class="dropbtn">ক্যাটাগরি</button>
-        <div class="dropdown-content">
-            <a href="#">Link 1</a>
-            <a href="#">Link 2</a>
-            <a href="#">Link 3</a>
-        </div>
-    </div>
-    </body>
+<script>
 
-    {#    Dropdown End#}
-    <br>
-    <br>
-    <br>
-
-    <div style="text-align:center">
-        <table align="center" border="1" width="1200" style="text-align:center">
-            <tr>
-                <th style="text-align:center" height="50">Name</th>
-                <th style="text-align:center">Price</th>
-                <th style="text-align:center">Status</th>
-            </tr>
-            <tr v-for="product in products" :key="product.id" height="50">
-                <td>Row</td>
-                <td>Row1</td>
-                <td>Row2</td>
-            </tr>
-        </table>
-    </div>
+    var app = new Vue({
+        el: '#app',
+        delimiters: ['[[', ']]'],
+        data: {
+            message: 'Django',
+            divisions: [],
+            categories: [],
+            districts: [],
+            chondoKotha: [],
+            form_data: {
+                division: '',
+                district: '',
+                category: ''
+            }
+        },
 
 
-</div><!-- /.container -->
+        created() {
+
+            axios.get('http://127.0.0.1:8000/data/')
+                .then(response => {
+                    this.divisions = response.data.division
+                    this.categories = response.data.category
+                    console.log(response.data.division)
+                })
+        },
+        methods: {
+            getDistricts() {
+                axios.get('http://127.0.0.1:8000/district/?division=' + this.form_data.division)
+                    .then(response => {
+                        this.districts = response.data.district
+                        console.log(response.data.district)
+
+
+                    })
+
+            },
+
+               getChondoKotha() {
+                axios.get('http://127.0.0.1:8000/kotha/?division=' + this.form_data.division + '&category=' + this.form_data.category + '&districts=' + this.form_data.district + '')
+                    .then(response => {
+                        this.chondoKotha = response.data.kotha
+
+                    })
+            }
+        }
+
+    })
+</script>
 
 
 </body>
